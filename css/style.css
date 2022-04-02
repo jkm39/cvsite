@@ -1,0 +1,197 @@
+/* General styling */
+
+body {
+  margin: 0;
+  background-color: #EFFFFD;
+  font-family: 'Nunito';
+  font-weight: 400;
+  color: #42C2FF;
+  font-size: 20px;
+}
+
+hr {
+  border-width: 0 0 2px;
+  border-color: inherit;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h1, h2, h3 {
+  font-family: 'Amatic SC';
+  font-weight: bold;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  z-index: 1;
+}
+
+.top-container img:hover {
+  width: 120px;
+}
+
+.menu-bar-container li {
+  display: inherit;
+  border-radius: 20px;
+  margin-left: 30px;
+  padding: 5px 10px;
+}
+
+.menu-bar-container {
+  display: block;
+  padding: 30px 50px 0 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: inherit;
+  z-index: 999;
+}
+
+.menu-bar-list {
+  display: inline-block;
+  font-family: inherit;
+  color: inherit;
+  position: relative;
+
+}
+
+.menu-bar-container li:hover {
+  border-radius: 20px;
+  margin-left: 30px;
+  padding: 5px 10px;
+  background-color: #B8FFF9;
+  font-weight: 400;
+}
+
+/* home page styling */
+
+.top-img {
+  margin: 140px 30% 0 70%;
+  width: 200px;
+  height: 50px;
+  display: block;
+  position: relative;
+}
+
+.moon {
+  position: relative;
+  left: 40px;
+  width: 110px;
+}
+
+.hello {
+  color: #42C2FF;
+  margin: 50px auto;
+  width: 400px;
+  padding: 5px;
+  text-align: center;
+  font-family: inherit;
+  position: relative;
+}
+
+
+.hello p {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.hello:hover {
+  color: #85F4FF;
+}
+
+.bottom-img {
+  margin: 10px 70% 10px 30%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+  right: 100px;
+}
+
+.prince {
+  display: block;
+  position: relative;
+  left: 25%;
+  width: 110px;
+}
+
+.top-container {
+  height: 100%;
+}
+
+.middle-container {
+  text-align: center;
+}
+
+
+
+.middle-container, .bottom-container {
+  margin: 100px 130px;
+  position: relative;
+
+}
+
+.profile-img {
+  width: 220px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: inherit;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #42C2FF;
+  color: #EFFFFD;
+  font-weight: 400;
+}
+
+.bottom-container {
+  text-align: right;
+}
+
+/* contact page styling */
+
+.forms {
+  display: block;
+  margin: 0 auto 0 130px;
+}
+
+.contact-info {
+  width: 500px;
+  margin: 140px auto 0 130px;
+  display: block;
+}
+
+.contact-info ul {
+  margin: 0 200px 0 auto;
+  padding: 0;
+}
+
+.contact-info li {
+  padding-left: 0;
+}
